@@ -1,0 +1,585 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+/*Header*/
+.img{
+    width: 103px;
+    height: 49px;
+    
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    padding: 8.3px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taps{
+    font-family: 'Raleway', sans-serif;
+    color: #6F6F6F;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*section__one*/
+.section{
+    width: 100%;
+}
+.one{
+    height: 78.5vh;
+    background: url(https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/header.jpg);
+}
+
+
+/*hello*/
+.hello {
+    padding-top: 300px;
+}
+.diz{
+    width: 1170px;
+    height: 182px;
+    text-transform: uppercase;
+    font-size: 60.004px;
+    color: #ffffff;
+    margin: 0px 0px 10px;
+    
+}
+
+/*Bottom*/
+.cnopka_one{
+    color: #ffff;
+    margin: 20px 0px 0px 10px;
+    padding: 14px 28px;
+    background-color: #ff6863;
+    border: 1px solid;
+    border-color: #ff6863;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.cnopka_one:hover{
+    background: #ffffff;
+    color: red;
+    border: #ffffff;
+    transition: all 0.6s;
+}
+.cnopka_one:active{
+    background-color: #204d74;
+    color: #ffffff;
+    border: 1px solid;
+    border-color: #204d74;
+}
+
+.cnopka_two{
+    margin: 20px 0px 0px 10px;
+    border: 1px solid;
+    border-color: #f5f5f5;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 0;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    background-color: transparent;
+}
+.cnopka_two:hover{
+    background: #ff6863;
+    border-color: #ff6863;
+    transition: all 0.6s;
+}
+.cnopka_two:active{
+    outline: none;
+    background-color: #d4d4d4;
+    border-color: #d4d4d4;
+    color: #333;
+}
+
+.home{
+    margin: 40px 0px 0px -10px;
+    color: #797979;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+/*section two*/
+.two{
+    padding: 100px 0px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*info*/
+.h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 3rem;
+    height: 42px;
+    width: 555px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.difis{
+    width: 85px;
+    height: 2px;
+    margin: 20px 0px;
+    background: #ff6863;
+}
+
+.info{
+    width: 45%;
+}
+
+
+.slide{
+    width: 45%;
+}
+
+
+.pism{
+    font-weight: 400;
+    color: #797979;
+    line-height: 1.5rem;    
+    font-size: 14px;
+    margin: 0px 0px 50px;
+    display: block;
+}
+
+
+.download{
+    text-transform: uppercase;
+    padding: 14px 28px;
+    background: #ff6863;
+    text-decoration: none;
+    color: #ffffff;
+    height: 50px;
+    width: 179.92px;
+}
+
+
+.download:hover{
+    background-color: #eee;
+    border-color: #eee;
+    color: #ff6863;
+    transition: all 0.6s;
+}
+
+
+.download:active{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}   
+
+.skrol{
+    border: 1px solid;
+    border-color: #EEEEEE;
+    text-decoration: none;
+    color: #6A6A6A;
+    display: block;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 553px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.skrol a{
+    width: 50px;
+    height: 100%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6A6A6A;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    background-color: #EEEEEE;
+}
+
+hr{
+    margin: 80px 0 80px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+.teshka{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto ;
+}
+
+.about_one{
+    width: 390px;
+    height: 163px;
+}
+
+
+.fire{
+    width: 21px;
+    height: 25px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.krug{
+    width: 60px;
+    height: 60px;
+    background-color: #ff6863;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 0px 0px 6px rgba(255, 104, 99, 0.4);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.were{
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    color: #1a1a1a;
+    
+}
+
+
+.were h2{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+
+.werehad{
+    display: flex;
+   
+}
+
+
+.pisulki{
+    color: #797979;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.video{
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/video.jpg')no-repeat center center;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+}
+
+.owerlay{
+    background-color: rgba(51,51,51,0.30);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video a{
+    color: #fff;
+    font-size: 3rem;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999999999999999;
+  
+}
+
+.headfe{
+    margin: 0 auto;
+  
+    padding-bottom: 100.002px;
+    width: 798px;
+}
+
+
+.headfe h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32.004px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #1a1a1a;
+    margin: 0px 0px 10px;
+}
+.headfe h2:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 85px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff6863;
+}
+
+.headfe p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #4a4a4a;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.imgf{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.imgf img{
+    width:600px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.kruzok{
+    top: 35%;
+    left: 50%;
+    transform: translate(-50, -50);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   font-weight: 400px;
+}
+
+.zg{
+    margin: 0 auto;
+    padding-bottom: 100.002px;
+    width: 798px;
+}
+
+
+.zg h2{
+   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32.004px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #1a1a1a;
+    margin: 0px 0px 10px;
+}
+.zg h2:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 85px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff6863;
+}
+
+.zg p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #4a4a4a;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.branding{
+    width: 360px;
+    height: 192px;
+    padding: 0px 15px;
+}
+
+.branding i{
+    font-size: 40px;
+    color: #797979;
+}
+
+.branding h6{
+    position: relative;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;   
+    margin: 30px 0px 10px;
+    padding: 0px 0px 20px;
+}
+
+.branding h6:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 100%;
+   
+    left: 4%;
+    transform: translateX(-50%);
+    background-color: #ff6863;
+}
+
+.branding p{
+    font-size: 14px;
+    color: #797979;
+    font-family: 'Raleway', sans-serif;
+}
+
+.piu{
+    display: flex;
+}
+
+.zastava{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 424px;
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/work-together.jpg');
+}
+
+.impressed{
+    width: 780px;
+    height: 224px;
+    margin: auto;
+}
+
+.impressed h2{
+    color: #ffffff;
+    font-size: 32px;
+    margin: 0px 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.impressed p{
+    width: 750px;
+    font-size: 14px;
+    margin: 40px 0px 15px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cnopochki{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px -10px;
+}
+
+.cartinochki{
+    width: 750px;
+    height: 582.92;
+    padding: 0px 15px;
+    margin: 0;
+    margin-right: 18px;
+}
+
+.als{
+    display: flex;
+}
+
+.werh{
+    height: 276.61px;
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/Portfolio/2.jpg');
+    width: 100%;
+}
+
+.left{
+    width: 360px;
+    height: 276.31px;
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/Portfolio/3.jpg');
+    margin-top: 30px;
+}
+
+.right{
+    width: 360px;
+    height: 276.31px;
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/Portfolio/5.jpg');
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.rty{
+    
+    width: 360px;
+    height: 582.8px;
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/Portfolio/1.jpg');
+}
+
+.rwe{
+    display: flex;
+}
+
+.poi{
+    width: 360px;
+    height: 265.31px;
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/Portfolio/6.jpg');
+    margin-top: 30px;
+    margin-left: 800px;
+}
+
+.khh{
+    width: 750px;
+    height: 276.61px;
+    background: url('https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/Portfolio/4.jpg');
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
